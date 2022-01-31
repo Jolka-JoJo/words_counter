@@ -1,0 +1,113 @@
+body{
+        
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(178, 235, 242);
+    color:rgb(33, 33, 33);
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.top_bar{
+    background: linear-gradient(to right, rgb(0, 151, 168), transparent);
+    height: 100px;
+    padding: auto;
+    margin: auto;
+}
+
+.top_bar_heading{
+
+    padding: 20px;
+    margin: auto;
+}
+
+.page_title_link{
+
+    text-decoration: underline;
+    color: rgb(240, 248, 255);
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.main_text_container{
+
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+}
+
+.main_text{
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 33, 33);
+    max-width: 800px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.conatainer_data_info{
+    display: flex;
+    justify-content: baseline;
+    padding: auto;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.data_info{
+    padding: auto;
+    margin: auto;
+}
+
+.table_main_container{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.table_main{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-heading{
+    background-color: rgb(117, 117, 117);
+    padding: 10px;
+    margin: 10px;
+}
+.table-heading-cell{
+    text-transform: uppercase;
+    color: rgb(240, 248, 255);
+    text-align: left;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.row_data{
+    background-color: rgb(255, 255, 255, 0.75);
+}
+
+.row_data:nth-child(even){
+    background-color: rgb(255, 255, 255)
+}
+
+.row_data:hover{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.table_main_cell{
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.col_data_table_par{
+    text-align: right;
+}
+
+
+
+
+
+
